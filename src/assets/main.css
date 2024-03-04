@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-el {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.numbercircle {
+    align-content: center;
+    background-color: #6c757d;
+    border-radius: 10em;
+    color: #fff;
+    display: inline-flex;
+    height: 5em;
+    justify-content: center;
+    line-height: 2em;
+    margin: 0.25rem;
+    padding: 1.5em 0;
+    width: 5em;
+}
+
