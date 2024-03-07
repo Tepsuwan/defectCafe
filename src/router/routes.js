@@ -4,8 +4,9 @@ import Products from "../pages/Products.vue";
 import Panel from "../pages/Panel.vue";
 import ProductDetail from "../pages/ProductDetail.vue";
 import Payment from "../pages/Payment.vue";
-import Test from "../pages/Test.vue";
 import Test2 from "../pages/Test2.vue";
+import Test from "../pages/Test.vue";
+import PromotionPage from "../pages/Promotion.vue";
 
 import Home2Page from "../pages/Home2.vue";
 
@@ -49,6 +50,11 @@ const routes = [
     path: "/home2",
     name: "Home2Page",
     component: Home2Page,
+  },
+  {
+    path: "/promotion",
+    name: "promotion",
+    component: PromotionPage,
   },
 ];
 
